@@ -41,4 +41,4 @@ The **Bus Ticket Booking System** is a comprehensive platform designed for stude
 - **Version Control**: Git, GitHub
 - **Hosting**: AWS/Heroku/GCP 
 
-## FUCK YOU THUN
+## Bro Seng loves men
