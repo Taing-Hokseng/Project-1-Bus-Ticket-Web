@@ -1,1 +1,0 @@
-print ("Hokseng sart jeang ke ler lork")
