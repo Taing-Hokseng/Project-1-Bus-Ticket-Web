@@ -1,24 +1,200 @@
+
+
 header{
     background-color: white;
     padding : 25px ;
-    border: 2px solid black;
-    text-align: center;   
+    border: 0px solid black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex-grow:1;
+    display: flex;
+    justify-content: center;
     
 }
 nav ul{
     
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+    font-size: 25px;
+    list-style-type:none;
 }
 nav ul a{
     text-decoration: none;
     color: #766868;
-
+    margin-right:20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 nav ul a:hover{
     color:#2FC634;
+    transform:scale(1.05);
 }
 body{
     background-color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+}
+.Login{
+    color:white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size : 25px;
+    background-color:black;
+    border: none;
+    cursor:pointer;
+    font-weight: bold;
+    transition: background-color 0.5s ease, transform 0.2s ease;
+    margin-right:100px;
+}
+.Login:hover{
+    background-color: #2FC634;
+    transform:scale(1.05);
+}
+div.motto{
+    background-color: #41fa47;
+    padding:100px;
+    border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+ box-shadow: 0 6px 2px rgba(0, 0, 0, 0.3);
+
+   
+}
+.motto p{
+    
+    font-weight: bold;
+    font-size: 50px; 
+} 
+.first{
+    margin-top: -10px;
+    margin-bottom: -45px;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.3);
+}
+.second{
+    margin-bottom:-45px;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.3);
+}
+.third{
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.3);
+}
+.Learn{
+    font-size:25px;
+    background-color: black;
+    color:white;
+    border-radius: 27px;
+    padding: 15px 30px;
+    cursor:pointer;
+    border:none;
+    font-weight: bold;
+}
+.Learn:hover{
+    transition: transform 0.2s ease;
+    transform:scale(1.1);
+}
+
+.offer h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom:50px;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.2);
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top:100px;
+    
+    
+    word-wrap: break-word;
+    
+    gap:170px
+
+}
+.box p{
+    font-size: 20px;
+    
+}
+.box h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.two{
+    padding:100px;
+}
+.three{
+    padding:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.CustomerText h1{
+    font-size: 75px;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-bottom:30px;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.2);     
+}
+.highlight{
+    color:#35da3a;
+}
+.CustomerText img{
+    width: 20px;
+    height: 20px;
+    margin-top: -80px;
+    
+}
+.Review{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+.review-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding:20px;
+    border-left: 9px solid #28a745;
+    cursor:pointer;transition:border-left-color 0.5s ease;}
+.review-card h1{    
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.star{
+    color: #fbff00;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.comment{
+    font-size: 20px;
+    
+}
+.review-card-in {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow:4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding:20px;
+    border-left: 9px solid #28a745;
+    margin-left: -150px;
+    cursor:pointer;
+transition:border-left-color 0.5s ease;
+}
+.review-card-in h1{    
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: -20px;
+    }
+.Review :hover{
+    border-left-color: #eeff00;    
 }
