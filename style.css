@@ -282,15 +282,15 @@ text-align: center;
     transform: scale(1.1);
 }
 .AskedQuestion{
-   
+   display:flex;
+   flex-direction: column;
     padding: 100px;
     gap: 100px;
-    margin-top:-10px
 }
 .AskedQuestion h1{
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: -150px;
     text-align: center;
     text-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.2);
 }
@@ -492,5 +492,122 @@ footer{
 }
 .contact button:hover{
     transform:scale(1.05);
+}
+
+
+@media (max-width: 1200px) {
+    .box {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .three {
+        flex-direction: column;
+    }
+
+    .partner-logo {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    nav ul {
+        font-size: 18px;
+    }
+
+    .message {
+        width: 80%;
+    }
+
+    .Review {
+        gap: 30px;
+    }
+
+    .CustomerText h1 {
+        font-size: 50px;
+    }
+
+    .highlight {
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        font-size: 16px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .message {
+        width: 90%;
+    }
+
+    .box h2 {
+        font-size: 25px;
+    }
+
+    .Review {
+        flex-direction: column;
+    }
+
+    .partner-text h1 {
+        font-size: 45px;
+    }
+
+    .three {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .two {
+        padding: 50px;
+    }
+
+    footer {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 15px;
+    }
+
+    nav ul {
+        font-size: 14px;
+    }
+
+    .message {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .Login {
+        font-size: 20px;
+        margin-right: 0;
+    }
+
+    .first, .second, .third {
+        font-size: 25px;
+    }
+
+    .Offer h1 {
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 20px 0;
+    }
 }
 
